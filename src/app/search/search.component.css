@@ -1,0 +1,13 @@
+.option {
+    padding: 5px;
+}
+.option:hover {
+    background-color: #EEEEEE
+}
+nav {
+    border: 1px solid gray;
+    width: 100px;
+    padding: 0;
+}
+nav ul{max-height:80px; width: 100px; padding: 0; margin: 0}
+nav ul{overflow:hidden; overflow-y:scroll;}

@@ -6,5 +6,16 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  data = [
+    "Microsoft",
+    "Apple",
+    "Facebook",
+    "WIPRO",
+    "Delhi",
+  ]
+
+  didSelectValue = (newValue) => {
+    console.log(newValue);
+  }
   title = 'autocomplete';
 }

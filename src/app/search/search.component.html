@@ -1,0 +1,8 @@
+<input type="text" [(ngModel)]="searchValue" (input)="onSearchChange($event.target.value)" placeholder="Enter Data Center Name">
+<nav>
+    <ul>
+        <div *ngFor="let item of results" (click)="selectValue($event.target.innerHTML)" class="option">
+            {{ item }}
+        </div>
+    </ul>
+</nav>
